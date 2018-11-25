@@ -14,10 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx
-        env:
-          - name: month
-            value: november
-            
+        image: nginx            
         ports:
         - containerPort: 80
