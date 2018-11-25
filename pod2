@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: november
+  labels:
+    country: us
+spec:
+  containers:
+  - name: karnataka
+    image: nginx
+    ports:
+      - containerPort: 80
